@@ -1,8 +1,9 @@
 import add from "./add.svg";
-import background from "./background.svg";
+import bgPage from "./bgPage.svg";
 import email from "./email.svg";
 import logo from "./logo.svg";
 import more from "./more.svg";
 import search from "./search.svg";
+import user from "./user.jpg";
 
-export { add, background, email, logo, more, search };
+export { add, bgPage, email, logo, more, search, user };
