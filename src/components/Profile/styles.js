@@ -2,16 +2,26 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: 96px;
 `;
 
 export const Content = styled.div`
+  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Item = styled.div`
+  height: 100%;
+  padding-top: ${(props) => props.padTop};
+`;
+export const DataUser = styled.div`
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  justify-content: space-around;
-  width: 382px;
-  height: 56px;
+  align-items: center;
+  color: ${(props) => props.theme.palette.text.tertiary.tertiary_2};
 `;
 
 export const Logo = styled.img`
@@ -19,14 +29,8 @@ export const Logo = styled.img`
   height: 37px;
 `;
 
-export const ImgUser = styled.img`
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  border: 2px solid #ed4d77;
-`;
-
 export const More = styled.img`
   width: 16px;
   height: 16px;
+  cursor: pointer;
 `;

@@ -3,7 +3,10 @@ const Theme = {
     text: {
       primary: "#000000",
       secondary: "#ED4D77",
-      tertiary: "#666666",
+      tertiary: {
+        tertiary_1: "#666666",
+        tertiary_2: "#F4F1F4",
+      },
     },
     background: {
       default: "#FFFFFF",
