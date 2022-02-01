@@ -1,9 +1,9 @@
-import Profile from "../../components/Profile";
+import { Header } from "../../components";
 
 const Home = () => {
   return (
     <>
-      <Profile />
+      <Header />
     </>
   );
 };
