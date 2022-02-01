@@ -26,6 +26,5 @@ export const Name = styled.p`
 
 export const Email = styled.p`
   font-size: 0.5rem;
-
   color: ${(props) => props.theme.palette.text.tertiary.tertiary_2}95;
 `;

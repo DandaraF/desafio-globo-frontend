@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  width: 100%;
+  height: auto;
+  padding-top: ${(props) => props.pdtop || "24px"};
+`;
 
-export const Content = styled.div``;
+export const Content = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 export const Text = styled.p`
   font-style: italic;
