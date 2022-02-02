@@ -45,7 +45,7 @@ Dado um csv de "cards", faça um CLI (Command Line Interface) que importe os dad
 
 CSV exemplo:
 
-```json
+```text
 
 text,tag
 Lorem ipsum dolor sit amet., tag1;tag2;tag3
