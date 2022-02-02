@@ -14,7 +14,7 @@ Ações da API
 
 ```json
 {
-  "id": // identificador
+  "id": # identificador
   "texto" // texto do card
   "data_criacao" // data da criação do card
   "data_modificacao" // data da última alteração do card
