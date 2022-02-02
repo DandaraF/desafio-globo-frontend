@@ -30,7 +30,7 @@ export const Logo = styled.img`
 `;
 
 export const More = styled.img`
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
 `;

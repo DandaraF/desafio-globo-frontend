@@ -9,8 +9,10 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  height: 315px;
+  height: 290px;
   padding: 24px 16px;
   background-image: url(${bgPage});
   background-position: bottom;
+  font-style: italic;
+  color: ${(props) => props.theme.palette.text.tertiary.tertiary_2};
 `;
