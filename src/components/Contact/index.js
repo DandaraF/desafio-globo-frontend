@@ -1,5 +1,4 @@
 import * as S from "./styles";
-import { user } from "../../assets/img";
 
 const Contact = () => {
   return (
