@@ -3,7 +3,9 @@ import { bgPage } from "../../assets/img";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const ContainerHeader = styled.div`
@@ -36,6 +38,7 @@ export const Img = styled.img`
 
 export const ContainerContent = styled.div`
   padding: 16px;
+  flex: 1 0 auto;
 `;
 
 export const Content = styled.div`
@@ -48,4 +51,9 @@ export const Content = styled.div`
 export const Item = styled.div`
   width: 100%;
   height: 100%;
+`;
+
+export const ContainerButton = styled.div`
+  flex-shrink: 0;
+  padding: 16px;
 `;

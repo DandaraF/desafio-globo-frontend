@@ -7,6 +7,7 @@ const Theme = {
         tertiary_1: "#666666",
         tertiary_2: "#F4F1F4",
         tertiary_3: "#313131",
+        tertiary_4: "#FFFFFF",
       },
     },
     background: {

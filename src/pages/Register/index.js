@@ -1,6 +1,6 @@
 import * as S from "./styles";
 import { arrow } from "../../assets/img";
-import { TextArea, Hr, Label, Text, Title } from "../../components";
+import { TextArea, Hr, Label, Text, Title, Button } from "../../components";
 
 const Register = () => {
   return (
@@ -44,6 +44,9 @@ const Register = () => {
           </S.Item>
         </S.Content>
       </S.ContainerContent>
+      <S.ContainerButton>
+        <Button>PUBLICAR</Button>
+      </S.ContainerButton>
     </S.Container>
   );
 };

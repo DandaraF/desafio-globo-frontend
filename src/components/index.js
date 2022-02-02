@@ -7,5 +7,17 @@ import Hr from "./Hr";
 import Text from "./Text";
 import Label from "./Label";
 import Contact from "./Contact";
+import Button from "./Button";
 
-export { Profile, Header, User, Title, TextArea, Hr, Text, Label, Contact };
+export {
+  Profile,
+  Header,
+  User,
+  Title,
+  TextArea,
+  Hr,
+  Text,
+  Label,
+  Contact,
+  Button,
+};
