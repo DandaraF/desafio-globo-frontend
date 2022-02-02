@@ -1,16 +1,15 @@
 import * as S from "./styles";
 import { user } from "../../assets/img";
 
-const User = () => {
+const Contact = () => {
   return (
     <S.Container>
       <S.Content>
-        <S.Border>
-          <S.ImgUser src={user} alt="Foto do usuário" />
-        </S.Border>
+        <S.Name>Olá, Antonio!</S.Name>
+        <S.Email>antonio.pina@g.globo</S.Email>
       </S.Content>
     </S.Container>
   );
 };
 
-export default User;
+export default Contact;

@@ -1,9 +1,17 @@
 import * as S from "./styles";
 
-const Title = ({ children, fontsize, color, weight, pdtop, ...other }) => {
+const Title = ({
+  children,
+  fontsize,
+  color,
+  weight,
+  pdtop,
+  width,
+  ...other
+}) => {
   return (
     <S.Container>
-      <S.Content>
+      <S.Content width={width}>
         <S.Text
           fontsize={fontsize}
           color={color}
