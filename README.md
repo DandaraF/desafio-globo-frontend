@@ -12,7 +12,7 @@ Ações da API
 * Filtrar por tags
 * Um card possui os campos:
 
-```json
+```text
 {
   "id": // identificador
   "texto" // texto do card
@@ -27,7 +27,7 @@ Ações da API
 * Remover Tag
 * Atualizar Tag
 
-```json
+```text
 Uma tag possui os campos:
 {
   "id" // identificador
