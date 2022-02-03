@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import * as S from "./styles";
 import { logo, add } from "../../assets/img";
 import User from "../User";
@@ -15,7 +16,9 @@ const Profile = () => {
           <Contact />
         </S.Item>
         <S.Item padTop="16px">
-          <S.More src={add} alt="Icone de adicionar" />
+          <Link to="/cadastro">
+            <S.More src={add} alt="Icone de adicionar" />
+          </Link>
         </S.Item>
       </S.Content>
     </S.Container>

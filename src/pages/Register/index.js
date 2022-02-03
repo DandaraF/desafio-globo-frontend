@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import * as S from "./styles";
 import { arrow } from "../../assets/img";
@@ -26,7 +27,9 @@ const Register = () => {
       <S.ContainerHeader>
         <S.Header>
           <S.ItemHeader>
-            <S.Img src={arrow} alt="voltar" />
+            <Link to="/">
+              <S.Img src={arrow} alt="voltar" />
+            </Link>
           </S.ItemHeader>
           <S.ItemHeader>
             <Title width="100px">
