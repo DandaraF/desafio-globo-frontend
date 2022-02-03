@@ -1,8 +1,26 @@
+import { useState } from "react";
 import * as S from "./styles";
 import { arrow } from "../../assets/img";
-import { TextArea, Hr, Label, Text, Title, Button } from "../../components";
+import {
+  TextArea,
+  Hr,
+  Label,
+  LimiterCaracter,
+  Title,
+  Button,
+} from "../../components";
 
 const Register = () => {
+  const [counter, setCounter] = useState(0);
+  // const [values, setValues] = useState([]);
+
+  function limiterCaracter(e) {
+    setCounter(e.target.value.length);
+  }
+  // function onChange(value) {
+  //   setValues({ ...values, insight: insight, category: category });
+  // }
+
   return (
     <S.Container>
       <S.ContainerHeader>
@@ -25,21 +43,32 @@ const Register = () => {
             <Label>INSIGHT</Label>
             <TextArea
               plaholder="Escreva aqui o seu insight..."
-              label="INSIGHT"
-              textLength="limite de caracteres"
+              onChange={(e) => {
+                limiterCaracter(e);
+                // onChange(e.target.value);
+              }}
               maxLength="400"
+              name="Insight"
               height="176px"
+              // value={values.insight}
             />
             <Hr />
-            <Text
+            <LimiterCaracter
               mgbottom="24px"
-              text="limite de caracteres: "
-              maxLength="400"
+              text={`limite de caracteres:`}
+              caracter={counter}
             />
           </S.Item>
           <S.Item>
             <Label>CATEGORIA</Label>
-            <TextArea plaholder="Adicione uma categoria (opcional)..." />
+            <TextArea
+              plaholder="Adicione uma categoria (opcional)..."
+              onChange={(e) => {
+                // onChange(e.target.value);
+              }}
+              name="category"
+              // value={values.category}
+            />
             <Hr />
           </S.Item>
         </S.Content>

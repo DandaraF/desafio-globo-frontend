@@ -4,7 +4,7 @@ import User from "./User";
 import Title from "./Title";
 import TextArea from "./TextArea";
 import Hr from "./Hr";
-import Text from "./Text";
+import LimiterCaracter from "./LimiterCaracter";
 import Label from "./Label";
 import Contact from "./Contact";
 import Button from "./Button";
@@ -16,7 +16,7 @@ export {
   Title,
   TextArea,
   Hr,
-  Text,
+  LimiterCaracter,
   Label,
   Contact,
   Button,
