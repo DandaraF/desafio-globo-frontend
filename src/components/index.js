@@ -8,6 +8,8 @@ import LimiterCaracter from "./LimiterCaracter";
 import Label from "./Label";
 import Contact from "./Contact";
 import Button from "./Button";
+import Card from "./Card";
+import Tag from "./Tag";
 
 export {
   Profile,
@@ -20,4 +22,6 @@ export {
   Label,
   Contact,
   Button,
+  Card,
+  Tag,
 };
