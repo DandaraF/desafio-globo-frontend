@@ -1,5 +1,4 @@
 import * as S from "./styles";
-import Tag from "../Tag";
 
 const Card = ({ text, children }) => {
   return (
