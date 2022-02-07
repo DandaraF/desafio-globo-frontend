@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  padding: 8px 16px;
 `;
 
 export const Content = styled.div`
@@ -14,6 +13,8 @@ export const Content = styled.div`
   padding: 16px;
   border-radius: 8px;
   gap: 24px;
+  box-shadow: 1px 4px 6px 2px
+    ${({ theme }) => theme.palette.background.secondary}10;
   background-color: ${(props) => props.theme.palette.background.default};
 `;
 
