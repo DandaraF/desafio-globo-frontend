@@ -76,6 +76,7 @@ const Register = () => {
           </S.Item>
         </S.Content>
       </S.ContainerContent>
+
       <S.ContainerButton>
         <Button>PUBLICAR</Button>
       </S.ContainerButton>

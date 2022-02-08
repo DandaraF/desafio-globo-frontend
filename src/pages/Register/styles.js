@@ -6,6 +6,7 @@ export const Container = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: ${(props) => props.theme.palette.background.primary};
 `;
 
 export const ContainerHeader = styled.div`
@@ -43,6 +44,7 @@ export const ContainerContent = styled.div`
 
 export const Content = styled.div`
   padding: 16px;
+  background-color: ${(props) => props.theme.palette.background.default};
   border-radius: 8px;
   border: 1px solid ${({ theme }) => theme.palette.background.secondary}10;
   box-shadow: 0 0 6px 2px ${({ theme }) => theme.palette.background.secondary}10;
@@ -51,6 +53,7 @@ export const Content = styled.div`
 export const Item = styled.div`
   width: 100%;
   height: 100%;
+  background-color: ${(props) => props.theme.palette.background.default};
 `;
 
 export const ContainerButton = styled.div`
