@@ -10,6 +10,8 @@ import Contact from "./Contact";
 import Button from "./Button";
 import Card from "./Card";
 import Tag from "./Tag";
+import Loading from "./Loading";
+import Text from "./Text";
 
 export {
   Profile,
@@ -24,4 +26,6 @@ export {
   Button,
   Card,
   Tag,
+  Loading,
+  Text,
 };
