@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { Header, Card, Tag, Title } from "../../components";
+import { Header, Card, Tag, Title, Loading, Text } from "../../components";
 
 const Home = () => {
   return (
@@ -22,6 +22,10 @@ const Home = () => {
               <Tag text="jogador" />
             </Card>
           </S.Cards>
+          <S.Loading>
+            <Loading />
+            <Text>Toque para exibir mais insights</Text>
+          </S.Loading>
         </S.Feed>
       </S.Content>
     </S.Container>

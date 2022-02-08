@@ -20,3 +20,11 @@ export const Cards = styled.div`
   flex-direction: column;
   gap: 8px;
 `;
+
+export const Loading = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;
