@@ -17,6 +17,7 @@ const Theme = {
       tertiary: {
         tertiary_1: "#ED4D77",
         tertiary_2: "#420A49",
+        tertiary_3: "#D3D3D3",
       },
     },
   },

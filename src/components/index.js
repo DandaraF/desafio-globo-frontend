@@ -12,6 +12,8 @@ import Card from "./Card";
 import Tag from "./Tag";
 import Loading from "./Loading";
 import Text from "./Text";
+import Search from "./Search";
+import Feed from "./Feed";
 
 export {
   Profile,
@@ -28,4 +30,6 @@ export {
   Tag,
   Loading,
   Text,
+  Search,
+  Feed,
 };
