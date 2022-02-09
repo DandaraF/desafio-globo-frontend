@@ -13,6 +13,9 @@ const GlobalStyle = createGlobalStyle`
     font-size: 10px;
     font-family: 'Exo 2', sans-serif;
   }
+  div{
+    max-width: 414px;
+  }
 
  
 `;
