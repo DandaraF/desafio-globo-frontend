@@ -1,16 +1,18 @@
 # Desafio
+
 Precisamos desenvolver uma ferramenta para criação de Cards de conteúdo esportivos (Insights).
 
 ## 1. Interace HTTP REST API
+
 Ações da API
 
-* Criar card
-* Ler card
-* Remover card
-* Atualizar card
-* Listar card
-* Filtrar por tags
-* Um card possui os campos:
+- Criar card
+- Ler card
+- Remover card
+- Atualizar card
+- Listar card
+- Filtrar por tags
+- Um card possui os campos:
 
 ```text
 {
@@ -22,10 +24,10 @@ Ações da API
 }
 ```
 
-* Criar Tag
-* Ler Tag
-* Remover Tag
-* Atualizar Tag
+- Criar Tag
+- Ler Tag
+- Remover Tag
+- Atualizar Tag
 
 ```text
 Uma tag possui os campos:
@@ -53,6 +55,7 @@ Mauris fringilla non quam vel lacinia,tag3
 Cras in tempus libero,
 
 ```
+
 ## 3. Interface WEB
 
 Após termos nossa api desenvolvida, precisamos viabilizar uma interface frontend para nossos usuários interagirem.
@@ -70,18 +73,19 @@ Os ícones utilizados no projeto são do Material Design
 Utilize o botão "Download Assets" para baixar a marca do produto Insights.
 
 ## Requerimentos:
-* Linguagens de programação backend:
-    * Python
-    * NodeJs
-    * C#
-* Framework frontend
-    * VueJS
-    * ReactJS
-    * Angular
-* Fidelidade de layout
-* Code Style
-* Teste unitário
-* Documentação
-    * Descrição
-    * Como rodar
-    * API DOC (openapi/swagger)
+
+- Linguagens de programação backend:
+  - Python
+  - NodeJs
+  - C#
+- Framework frontend
+  - VueJS
+  - ReactJS
+  - Angular
+- Fidelidade de layout
+- Code Style
+- Teste unitário
+- Documentação
+  - Descrição
+  - Como rodar
+  - API DOC (openapi/swagger)
